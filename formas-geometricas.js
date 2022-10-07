@@ -1,9 +1,7 @@
-<canvas width="600" height="400"></canvas>
-
-<script>
+function formasGeometricas(){
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
-    
+   
     pincel.fillStyle='black';
     pincel.beginPath();
     pincel.moveTo(50, 50);
@@ -17,4 +15,4 @@
     pincel.lineTo(100, 350);
     pincel.lineTo(275, 350);
     pincel.fill();
-</script>
+}
